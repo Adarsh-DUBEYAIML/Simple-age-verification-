@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main () {
+int A;
+//printf is for printing of output on page 
+printf("This is a simple project of age verification system\n");
+printf("ENTER YOUR AGE-------");
+//scanf is for taking values 
+scanf("%d", &A);
+// if else is for conditions 
+if (A>=18) {
+printf("Verified");
+}else{ printf("NOT VERIFIED");}
+
+
+
+	
+	
+	
+}
